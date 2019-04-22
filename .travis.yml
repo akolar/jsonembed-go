@@ -1,0 +1,9 @@
+go_import_path: github.com/akolar/jsonembed-go
+language: go
+
+go:
+    - 1.12.x
+    - master
+
+script:
+    - "./build.sh"
