@@ -5,5 +5,8 @@ go:
     - 1.12.x
     - master
 
+before_install:
+    - chmod +x ./build.sh
+
 script:
     - "./build.sh"

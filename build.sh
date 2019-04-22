@@ -1,3 +1,5 @@
+#!/usr/bin/env sh
+
 echo "Running gofmt"
 if [ -n "$(gofmt -s -l .)" ]; then
     echo "Code is not formatted."
