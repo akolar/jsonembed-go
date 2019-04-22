@@ -9,4 +9,5 @@ before_install:
     - chmod +x ./build.sh
 
 script:
+    - "go get -u github.com/stretchr/testify/suite"
     - "./build.sh"
